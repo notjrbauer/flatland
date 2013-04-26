@@ -10,15 +10,7 @@ Flatland is a simple theme and accompanying color scheme for Sublime Text 2. It 
 
 
 ## Installation
-Flatland is a Sublime package. There are two ways to install it.
-
-### Package Control
-You can install it using the excellent [Package Control][] package manager for Sublime Text 2 following these easy steps:
-
-1. Add the https://github.com/thinkpixellab/flatland/ repository to your list of installed packages using `Package Control: Add Repository` from the Command Palette
-2. Install the `flatland` package using the `Package Control: Install Package` command.
-
-[Package Control]: http://wbond.net/sublime_packages/package_control
+Clone into Sublime/Packages
 
 ### Manual Installation
 You can also install it manually by following these instructions:
@@ -29,8 +21,8 @@ You can also install it manually by following these instructions:
 
 ```javascript
 {
-  "theme": "Flatland.sublime-theme",
-  "color_scheme": "Packages/flatland/Theme - Flatland/Flatland.tmTheme"
+  "color_scheme": "Packages/Theme - Flatland/Theme - Flatland/Flatland.tmTheme",
+  "theme": "Flatland.sublime-theme"
 }
 ```
 
@@ -42,8 +34,8 @@ The following options can be set in your user preferences:
 ```javascript
 {
   // square file tabs instead of rounded corners
-  "flatland_square_tabs": true, 
-  
+  "flatland_square_tabs": true,
+
   // Monokai theme (SublimeText's default) with Flatland background color
   "color_scheme": "Packages/flatland/Theme - Flatland/Flatland-Monokai.tmTheme"
 }
