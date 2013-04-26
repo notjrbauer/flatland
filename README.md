@@ -11,6 +11,7 @@ Flatland is a simple theme and accompanying color scheme for Sublime Text 2. It 
 
 ## Installation
 Clone into Sublime/Packages
+**RENAME your flatline directory to Theme - Flatland**
 
 ### Manual Installation
 You can also install it manually by following these instructions:
